@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+/* header */
+header { position:fixed; top:0; left:0; width:100%; min-width:700px; height:80px; background:#fff; border-bottom:1px solid #949494; box-sizing: border-box; z-index: 1111; }
+header h1 { float:left; padding:20px 0 20px 56px; }
+header h1 a { font-size:24px; font-weight:500; }
+
+/* nav */
+nav{position:fixed;top:81px;left:0;width:240px;height:calc(100vh - 81px);background:#f5f5f5;overflow:auto;border-right:1px solid #dcdcdc;padding-top:20px;box-sizing:border-box;z-index:1111;}
+nav .depth_01{border-top:1px solid #dcdcdc}
+nav .depth_01:first-child{border-top:0;}
+nav .depth_01 > p{padding:16px 0 16px 56px;line-height: 1.5;letter-spacing: -0.11px;}
+nav .depth_01 > div{padding:16px 0 16px 56px;line-height: 1.5;letter-spacing: -0.11px;display: flex;align-items: center;box-sizing: border-box;}
+nav .depth_01 a { display:block; width:100%; font-size:16px; font-weight:500; color:#000; line-height: 24px; }
+nav .depth_01 .active a { color:#dc000c; font-weight:700; }
+nav .depth_01 .active a::after{ content:''; position:relative; top:3px; display:inline-block; width:20px; height:20px;  }
+
+/* content */
+.content{padding:112px 48px 0 320px;width:100%;min-height:100vh;box-sizing: border-box;max-width:1920px;margin:0 auto;position:relative;}
+.content.member{width:900px;margin:0 auto;padding:112px 0 0}
+.content_guide{width:1500px;margin:50px auto;}
+
+/* common */
+.title { font-size: 32px; color: #dc000c; font-weight: bold; }
+
+
+/* 01 - Main Color */
+.title { margin:0 0 10px;}
+.tit_box { width:200px; height:200px; background-color:#dc000c; }
+
+/* 버튼 가이드 */

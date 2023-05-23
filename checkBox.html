@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>캐논코리아 ui모음</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/checkBox.css">
+</head>
+<body>
+  
+  <!-- 체크박스 id와 for명은 동일하게 해야 2개 이상있어도 각가 작동함-->
+  <ul class="guide_box_check">
+    <li>
+      <!-- 체크박스 id와 for명은 동일하게 해야 2개 이상있어도 각각 작동함 -->
+      <div class="check_box">
+        <input type="checkbox" name="custom-1" id="custom-1">
+        <label for="custom-1">개인정보 수집 동의 및 이용에 동의합니다. (필수)</label>
+      </div>
+
+      <div class="check_box">
+        <input type="checkbox" name="custom-2" id="custom-2">
+        <label for="custom-2">개인정보 수집 동의 및 이용에 동의합니다. (필수)</label>
+      </div>
+      <!-- 체크박스 -->
+    </li>
+    <!-- 체크박스 하나만체크가능하게 컨트롤 -->
+    <li>
+      <div class="check_box">
+        <input type="checkbox" name="checkbox" id="checkbox_01" class="check_alone">
+        <label for="checkbox_01">단독체크</label>
+      </div>
+      <div class="check_box">
+        <input type="checkbox" name="checkbox" id="checkbox_02" class="check_alone">
+        <label for="checkbox_02">단독체크</label>
+      </div>
+      <div class="check_box">
+        <input type="checkbox" name="checkbox" id="checkbox_03" class="check_alone">
+        <label for="checkbox_03">단독체크</label>
+      </div>
+      <div class="check_box">
+        <input type="checkbox" name="checkbox" id="checkbox_04" class="check_alone">
+        <label for="checkbox_04">단독체크</label>
+      </div>
+    </li>
+    <!-- 체크박스  -->
+    <li>
+      <!-- 체크박스 커스텀, 비교하기 -->
+      <div class="check_box compare">
+        <input type="checkbox" name="compare" id="compare">
+        <label for="compare">비교하기</label>
+      </div>
+      <!-- 체크박스 커스텀, 비교하기 -->
+    </li>
+    <li>
+      <!-- 라디오버튼 -->
+      <div class="radio_box">
+        <input type="radio" name="customName" id="customName-1">
+        <label for="customName-1">비교하기</label>
+        <input type="radio" name="customName" id="customName-2">
+        <label for="customName-2">비교하기</label>
+        <input type="radio" name="customName" id="customName-3">
+        <label for="customName-3">비교하기</label>
+      </div>
+      <!-- 라디오버튼 -->
+    </li>
+    <li>
+      <!-- 라디오버튼 그룹으로 감싸서 사용할때 예시 -->
+      <ul class="radio_box custom">
+        <li>
+          <input type="radio" name="customName-2" id="customName-2-1">
+          <label for="customName-2-1">비교하기</label>
+        </li>
+        <li>
+          <input type="radio" name="custom-2" id="customName-2-2">
+          <label for="customName-2-2">비교하기</label>
+        </li>
+        <li>
+          <input type="radio" name="customName-2" id="customName-2-3">
+          <label for="customName-2-3">비교하기</label>
+        </li>
+      </ul>
+      <!-- 라디오버튼 그룹으로 감싸서 사용할때 예시 -->
+    </li>
+    <li>
+      <!-- 원형태의 라디오 -->
+      <ul class="radio_box_round">
+        <li>
+          <input type="radio" name="customName-3" id="customName3-1">
+          <label for="customName3-1">비교하기</label>
+        </li>
+        <li>
+          <input type="radio" name="customName-3" id="customName-3-2">
+          <label for="customName-3-2">비교하기</label>
+        </li>
+        <li>
+          <input type="radio" name="customName-3" id="customName-3-3">
+          <label for="customName-3-3">비교하기</label>
+        </li>
+      </ul>
+      <!-- 원형태의 라디오 -->
+    </li>
+  </ul>
+</body>
+</html>
