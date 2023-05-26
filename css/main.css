@@ -1,3 +1,43 @@
 @charset "utf-8";
 
-/* 1.메인페이지 */
+/* common */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap');
+body { font-family: 'Noto Sans KR','Roboto', sans-serif;}
+.container { width:1200px; margin:0 auto; }
+
+/* 01.메인페이지 */
+
+/* 02.로그인 */
+
+/* 03.통합회원전환 */
+
+/* 04.통합회원가입페이지 */
+
+/* 05.통합회원가입(개인) */
+
+/* 06.통합회원가입(사업자) */
+
+
+/* 07.마이캐논 */
+#main_07 .container { width:1000px; margin:0 auto; }
+#main_07 .name { font-size:24px; }
+#main_07 .name a { border-bottom:2px solid #000; }
+#main_07 .coupon_area_wrap { display:flex; justify-content: space-between; align-items: center; margin-bottom: 15px; }
+#main_07 .coupon_area_wrap h2 { font-size:20px; }
+#main_07 .coupon_area_wrap a { font-size:14px; color:#666; }
+#main_07 .coupon_table { width:1000px; background:#f9f9f9; padding: 16px 0; border-top: 1px solid #e6e6e6; border-bottom: 1px solid #e6e6e6; }
+#main_07 .coupon_table td { padding:0 20px; text-align: center; font-size: 14px; }
+#main_07 .button_wrap { display:flex; justify-content: center; margin:50px 0 0; }
+#main_07 .button_wrap .btn { width:180px; height:60px; border-radius:30px; font-size:16px; color:#fff; }
+#main_07 .button_wrap .btn_1 { background:#dc000c; margin-right:20px; }
+#main_07 .button_wrap .btn_2 { background:#000; color:#fff; }
+
+
+/* 08.개인정보수정 */
+
+/* 09.1:1문의 */
+
+
+
+
+
