@@ -20,8 +20,8 @@ body { font-family: 'Noto Sans KR','Roboto', sans-serif;}
 
 /* 07.마이캐논 */
 #main_07 .container { width:1000px; margin:0 auto; }
-#main_07 .name { font-size:24px; }
-#main_07 .name a { border-bottom:2px solid #000; }
+#main_07 .title { font-size:24px; }
+#main_07 .title a { border-bottom:2px solid #000; }
 #main_07 .coupon_area_wrap { display:flex; justify-content: space-between; align-items: center; margin-bottom: 15px; }
 #main_07 .coupon_area_wrap h2 { font-size:20px; }
 #main_07 .coupon_area_wrap a { font-size:14px; color:#666; }
@@ -34,6 +34,21 @@ body { font-family: 'Noto Sans KR','Roboto', sans-serif;}
 
 
 /* 08.개인정보수정 */
+#main_08 .container { width:1000px; margin:0 auto; }
+#main_08 .title { font-size:24px; margin: 0 0 15px; }
+#main_08 .edit_box_wrap { background:#f9f9f9; border-radius: 10px; padding:60px 0; text-align: center; }
+#main_08 .info_text { font-size:20px; font-weight:500; margin:0 0 30px; }
+#main_08 .edit_box_input_wrap { padding: 0 0 0 340px; }
+#main_08 .edit_box_input_area { display:flex;  align-items: center; }
+#main_08 .edit_box_input_area_01 { margin:0 0 10px; }
+#main_08 .edit_item { font-size: 16px; }
+#main_08 .edit_item_id { margin-left:40px; }
+#main_08 .edit_item_pw { margin-left:26px; }
+#main_08 .edit_item_pw input[type=password] { background:#fff; border:1px solid #e6e6e6; border-radius:4px; width: 194px;height: 46px; }
+#main_08 .button_wrap { display: flex; justify-content: center; margin-top:60px; }
+#main_08 .btn_check { width:180px; height:60px; font-size:16px; background:#dc000c; color:#fff; border-radius: 30px; }
+
+
 
 /* 09.1:1문의 */
 
