@@ -14,10 +14,39 @@
     <main class="main" id="main_07">
       <div class="container">
         <h1 class="title"><a href="#">한창희</a>님 안녕하세요!</h1>
+        <div class="user_info">
+          <div class="user_level_wrap">
+            <ul class="user_level_item_wrap">
+              <li class="user_level_item user_level_item_01">
+                <div class="my_level">
+                  <p class="my_level_txt_uptxt">마이레벨</p>
+                  <p class="my_level_txt_downtxt">-</p>
+                </div>
+                <div class="level_product">
+                  <p class="my_level_txt_uptxt">레벨부여제품</p>
+                  <p class="my_level_txt_downtxt">-</p>
+                </div>
+              </li>
+              <li class="user_level_item user_level_item_02">
+                <div class="user_event">
+                  <p class="my_level_txt_uptxt">쿠폰</p>
+                  <p class="my_level_txt_downtxt"><strong>0</strong></p>
+                </div>
+                <div class="user_event">
+                  <p class="my_level_txt_uptxt">이벤트</p>
+                  <p class="my_level_txt_downtxt"><strong>0</strong></p>
+                </div>
+                <div class="user_event">
+                  <p class="my_level_txt_uptxt">1:1 문의</p>
+                  <p class="my_level_txt_downtxt"><strong>0</strong></p>
+                </div>
+              </li>
+            </ul>
+          </div>
         <div class="coupon_area">
           <div class="coupon_area_wrap">
             <h2>쿠폰</h2>
-            <a href="#">더보기 ></a>
+            <a href="">더보기 ></a>
           </div>
           <table class="coupon_table">
             <tr>
@@ -30,11 +59,25 @@
               <td>디바이스</td>
             </tr>
           </table>
+          <div class="coupon_desc_wrap">
+            <p class="desc_txt">사용 가능한 쿠폰이 없습니다.</p>
+            <div class="link_area">
+              <a href="" class="link_txt">이스토어 쿠폰존 바로가기 ></a>
+            </div>
+          </div>
           <div class="button_wrap">
             <button type="button" class="btn btn_1" onclick="addContents();">요소 추가버튼</button>
             <button type="button" class="btn btn_2" onclick="removeContents()">요소 삭제버튼</button>
           </div>
         </div>
+        <ul class="service_item_wrap">
+          <li class="service_item_list">
+            <a href=""><span>서비스 진행 현황 바로가기</span></a>
+          </li>
+          <li class="service_item_list">
+            <a href=""><span>패카트리지 회수 현황 바로가기</span></a>
+          </li>
+        </ul>
       </div>
     </main>
     <script src="js/script.js"></script>
