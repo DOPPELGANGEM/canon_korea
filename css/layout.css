@@ -14,8 +14,8 @@
 #header .nav_item .nav_menu_txt { font-size:18px; font-weight:500; color:#111; }
 #header .nav_menu_txt { display:inline-block; margin-left:30px; }
 #header .nav_item.nav_right_area { margin-left: 20px; }
-#header .nav_right_area .nav_menu_txt { font-size: 14px; position: relative; }
-#header .nav_right_area .nav_menu_txt:after { content:''; display:block; position:absolute; top:0; right:-22px; background:url(../images/01_main/ico_header_link_black.svg); width:20px; height:20px;  }
+#header .nav_right_area .nav_menu_txt a { font-size: 14px; position: relative; }
+#header .nav_right_area .nav_menu_txt a:after { content:''; display:block; position:absolute; top:0; right:-22px; background:url(../images/01_main/ico_header_link_black.svg); width:20px; height:20px;  }
 #header .nav_button_area { display: flex; width: 240px; justify-content: flex-end;; }
 #header .nav_btn_item button { width:100px; height:30px; font-size:14px; color:#fff; border-radius:4px; display: block; }
 #header .nav_btn_item:first-child button { background:#000; }
