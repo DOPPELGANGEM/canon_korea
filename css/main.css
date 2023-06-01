@@ -43,7 +43,7 @@ body { font-family: 'Noto Sans KR','Roboto', sans-serif;}
 #main_01 .play_btn { right:300px; }
 #main_01 .stop_btn {right: 280px; }
 #main_01 .plays_btn.on { display:none; }
-#main_01 .aside_bar_wrap { position: fixed; bottom:200px; right:30px; background:#fff; width:94px; padding: 10px 10px; border-radius: 15px; }
+#main_01 .aside_bar_wrap { position: fixed; bottom:200px; right:30px; background:#fff; width:94px; padding: 20px 10px; border-radius: 15px; }
 #main_01 .side_bar_item { background-size:40px; background-repeat: no-repeat; background-position: top center; margin: 0 0 10px; padding:40px 0 0 }
 #main_01 .side_bar_item_01 { background-image:url("../images/01_main/quickmenu_ico_01.svg");
 }
