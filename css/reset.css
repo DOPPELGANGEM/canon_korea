@@ -26,9 +26,9 @@ button {background:transparent; outline:none; border:0; cursor:pointer;}
 .m_hide {display:none !important;}
 .m_show {display:block !important;}
 
-/* input */
-input { border:none; outline:none; }
 
+input { outline:none; }
+button { cursor: pointer; }
 
 @media screen and ( max-width:768px) {
   .m_hide {display: none !important;}
