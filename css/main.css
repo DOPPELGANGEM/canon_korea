@@ -66,18 +66,18 @@ body { font-family: 'Noto Sans KR','Roboto', sans-serif;}
 #main_02 .check_field_wrap { display: flex; }
 #main_02 .check_item input { display:none; }
 #main_02 .check_item:first-child { margin-right:5px; }
+
 #main_02 .check_item input[type="checkbox"] + label { font-size:14px; position: relative; padding-left:25px; }
-#main_02 .check_item input[type="checkbox"] + label:before { position:absolute; content:''; left:0; top:50%; transform: transLateY(-50%); width:20px; height:20px; border-radius:50%; box-sizing: border-box; }
+#main_02 .check_item input[type="checkbox"] + label:before { position:absolute; content:''; left:0; top:50%; transform: transLateY(-50%); width:20px; height:20px; border-radius:50%; box-sizing: border-box; border:1px solid #e6e6e6; }
 #main_02 .check_item input[type="checkbox"] + label:after { position:absolute; content:''; left:0; top:50%; transform: transLateY(-50%); width:20px; height:20px; border-radius:50%; }
-#main_02 .check_item input[type="checkbox"] + label:before { border:1px solid #e6e6e6; }
 #main_02 .check_item input[type="checkbox"]:checked + label:before { border:1px solid #dc000c; background:#dc000c; }
 #main_02 .check_item input[type="checkbox"]:checked + label:after { background:url(../images/02_login/ico_check.svg#def) center center no-repeat; background-size:12px; }
+
 #main_02 .menu_wrap { display:flex; }
 #main_02 .menu_item { position:relative; padding-right: 10px; font-size: 14px; }
 #main_02 .menu_item:last-child { padding-right: 0; }
 #main_02 .menu_item:after { content:""; width:1px; height:10px; background:#ccc; position: absolute; top: 5px;right: 4px; }
 #main_02 .menu_item:last-child:after { display:none; }
-
 #main_02 .big_btn_wrap { display: flex; justify-content: center; width: 100%; padding: 16px 0; background: #dc000c;color: #fff; font-size: 20px; margin:20px 0; }
 #main_02 .add_txt { font-size:12px; color:#666; }
 
@@ -85,32 +85,77 @@ body { font-family: 'Noto Sans KR','Roboto', sans-serif;}
 
 
 /* 03.통합회원전환 */
-#main_03 {    }
+#main_03 .check_field_wrap { display: flex; justify-content: center; }
+#main_03 .check_item:not(:last-child) { margin-right:10px; }
+#main_03 .check_item input { display:none; }
+#main_03 .check_item label { display: block; }
+#main_03 .check_item input[type="checkbox"] + label { font-size:16px; position:relative; }
+#main_03 .check_item input[type="checkbox"] + label:before { content:''; position:absolute; top: -20px; left:50%; transform:translateX(-50%); width:20px; height:20px; border-radius: 50%; box-sizing: border-box; border:1px solid #e6e6e6; }
+#main_03 .check_item input[type="checkbox"] + label:after { content:''; position:absolute; top: -20px; left:50%; transform:translateX(-50%); width:20px; height:20px; border-radius: 50%;  }
+#main_03 .check_item input[type="checkbox"]:checked + label:before { border:1px solid #dc000c; background:#dc000c; }
+#main_03 .check_item input[type="checkbox"]:checked + label:after { background:url(../images/03_int_mem_conversion/ico_check.svg#def) center center no-repeat; background-size: 12px; }
+#main_03 .con_mem_txt_area { text-align: center; margin: 30px 0; }
+#main_03 .con_mem_txt_area h3 { font-size: 28px; margin:0 0 10px; }
+#main_03 .con_mem_txt_area p { font-size:18px; }
 
-
-
-
-
-
-
-
-
-
-
+#main_03 .mem_division_area .tit_desc { text-align: center; margin: 0 0 40px; }
+#main_03 .mem_division_area .box_wrap { display:flex; justify-content: center; }
+#main_03 h4 { text-align: center; font-size:24px; font-weight:500;  }
+#main_03 .box_item { border:1px solid #e6e6e6; border-radius:15px; padding: 35px 20px 30px 20px; }
+#main_03 .box_item:first-child { margin-right: 10px; }
+#main_03 .box_item p { text-align: center; margin:10px 0 20px; }
+#main_03 .box_item .btn_area { display:flex; justify-content: center;  }
+#main_03 .box_item .btn_area a { border-radius:30px; width:180px; height:50px; text-align: center; line-height: 45px; }
 
 
 
 
 /* 04.통합회원가입페이지 */
+#main_04 .txt_area { text-align: center;  }
+#main_04 .txt_area h3 { font-size:24px; margin:0 0 5px; }
+#main_04 .txt_area p { font-size:16px; }
+#main_04 .box_wrap { display:flex; justify-content: center; margin: 60px 0;}
+#main_04 h4 { text-align: center; font-size:24px; font-weight:500;  }
+#main_04 .box_item { border:1px solid #e6e6e6; border-radius:15px; padding: 35px 20px 30px 20px; width:500px; }
+#main_04 .box_item:first-child { margin-right: 10px; }
+#main_04 .box_item p { text-align: center; margin:10px 0 20px; }
+#main_04 .box_item .btn_area { display:flex; justify-content: center;  }
+#main_04 .box_item .btn_area a { border-radius:30px; width:180px; height:50px; text-align: center; line-height: 45px; }
 
 
 
 
 /* 05.통합회원가입(개인) */
+#main_05 .title_txt {  }
+
+
+
+
+#main_05 .menu_item:not(:last-child) { margin-bottom:100px; }
+#main_05 .anchor_menu { display:block; font-size: 18px; font-weight:500; width:100%; border-bottom:2px solid #000; padding: 0 0 7px; }
+/* #main_05 .check_item input { display:none; }
+#main_05 .check_item label { display: block; }
+#main_05 .check_item input[type="checkbox"] + label { font-size:16px; position:relative; }
+#main_05 .check_item input[type="checkbox"] + label:before { content:''; position:absolute; top: -20px; left:50%; transform:translateX(-50%); width:20px; height:20px; border-radius: 50%; box-sizing: border-box; border:1px solid #e6e6e6; }
+#main_05 .check_item input[type="checkbox"] + label:after { content:''; position:absolute; top: -20px; left:50%; transform:translateX(-50%); width:20px; height:20px; border-radius: 50%;  }
+#main_05 .check_item input[type="checkbox"]:checked + label:before { border:1px solid #dc000c; background:#dc000c; }
+#main_05 .check_item input[type="checkbox"]:checked + label:after { background:url(../images/03_int_mem_conversion/ico_check.svg#def) center center no-repeat; background-size: 12px; } */
+
+
+
+
+
 
 
 
 /* 06.통합회원가입(사업자) */
+
+
+
+
+
+
+
 
 
 
@@ -153,6 +198,11 @@ body { font-family: 'Noto Sans KR','Roboto', sans-serif;}
 
 
 
+
+
+
+
+
 /* 08.개인정보수정 */
 #main_08 .container { width:1000px; margin:0 auto; }
 #main_08 .title { font-size:24px; margin: 0 0 15px; }
@@ -167,6 +217,12 @@ body { font-family: 'Noto Sans KR','Roboto', sans-serif;}
 #main_08 .edit_item_pw input[type=password] { background:#fff; border:1px solid #e6e6e6; border-radius:4px; width: 194px;height: 46px; }
 #main_08 .button_wrap { display: flex; justify-content: center; margin-top:60px; }
 #main_08 .btn_check { width:180px; height:60px; font-size:16px; background:#dc000c; color:#fff; border-radius: 30px; }
+
+
+
+
+
+
 
 
 
