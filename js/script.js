@@ -25,28 +25,11 @@ document.querySelector('.modal_btn_close').addEventListener('click', function(){
 /* 01.메인페이지 */
 
 
-
-/* 02.로그인 */
-
-
-
-/* 03.통합회원전환 */
-
-
-
-/* 04.통합회원가입페이지 */
-
-
-
 /* 05.통합회원가입(개인) */
 
 
 
 /* 06.통합회원가입(사업자) */
-
-
-
-
 
 
 /* 07.마이캐논 */
@@ -60,12 +43,6 @@ function removeContents(){
   tableTag.remove();
 }
 
-
-
-/* 08.개인정보수정 */
-
-
-/* 09.1:1문의 */
 
 
 
