@@ -25,23 +25,21 @@ document.querySelector('.modal_btn_close').addEventListener('click', function(){
 
 
 
-/* 05.통합회원가입(개인) */
 
 
-
-
-
-
-
-
-
-
-/* 05.통합회원가입(개인) , 06.통합회원가입(사업자) --부가정보슬라이드만공통-- */
-document.querySelector('.arrow_menu').addEventListener('click', function(e) {
+/* 05.통합회원가입(개인)  */
+document.querySelector('#main_05 .arrow_menu').addEventListener('click', function(e) {
   e.preventDefault();
   $(this).siblings().slideToggle();
   this.classList.toggle('active');
 });
+
+
+
+
+
+
+
 
 /* 07.마이캐논 */
 function addContents(){

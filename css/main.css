@@ -172,7 +172,7 @@ body { font-family: 'Noto Sans KR','Roboto', sans-serif;}
 #main_05 .box_round_item input[type="radio"] + label:after { content:''; position:absolute; top: 50%; left:-24px; transform:translateY(-50%); width:8px; height:8px; border-radius: 50%; box-sizing: border-box;  }
 #main_05 .box_round_item input[type="radio"]:checked + label:before { border:1px solid #dc000c; }
 #main_05 .box_round_item input[type="radio"]:checked + label:after { background:#dc000c; }
-#main_05 .slide_toggle_wrap { display:none;  }
+#main_05 .slide_toggle_wrap { display:none; }
 #main_05 .user_married_area { display:flex; align-items: center; margin: 20px 0 0; }
 #main_05 .user_married_wrap .tit_txt { width:200px; font-weight: 500;  }
 #main_05 .box_round_wrap { display:flex; padding-left: 30px; }
@@ -192,12 +192,12 @@ body { font-family: 'Noto Sans KR','Roboto', sans-serif;}
 
 
 
+
 /* 06.통합회원가입(사업자) */
 #main_06 .title_txt { font-size:30px; text-align: center; margin:0 0 30px; }
 #main_06 .menu_item { margin-bottom:80px; }
 #main_06 .anchor_menu { display:block; font-size: 20px; font-weight:500; width:100%; border-bottom:2px solid #000; padding: 0 0 7px; position: relative; }
 #main_06 .arrow_menu:after { content:''; width:26px; height:26px; position:absolute; top:4px; right:0;  transform: rotate(180deg); background:url(../images/05_int_mem_individual/ico_arrow_up.svg) no-repeat; transition: all 0.3s; }
-#main_06 .arrow_menu.active:after { transform: rotate(0deg); }
 #main_06 .check_field_wrap { display:flex; justify-content: space-between; flex-wrap: wrap; padding-top:20px; }
 #main_06 .check_item { width:500px; padding-left:30px; }
 #main_06 .check_item:nth-child(3) { padding-top:10px; }
@@ -235,7 +235,7 @@ body { font-family: 'Noto Sans KR','Roboto', sans-serif;}
 #main_06 .box_round_item input[type="radio"] + label:after { content:''; position:absolute; top: 50%; left:-24px; transform:translateY(-50%); width:8px; height:8px; border-radius: 50%; box-sizing: border-box;  }
 #main_06 .box_round_item input[type="radio"]:checked + label:before { border:1px solid #dc000c; }
 #main_06 .box_round_item input[type="radio"]:checked + label:after { background:#dc000c; }
-#main_06 .slide_toggle_wrap { display:none;  }
+/* #main_06 .slide_toggle_wrap { display:none; } */
 #main_06 .user_married_area { display:flex; align-items: center; margin: 20px 0 0; }
 #main_06 .user_married_wrap .tit_txt { width:200px; font-weight: 500;  }
 #main_06 .box_round_wrap { display:flex; padding-left: 30px; }
@@ -251,12 +251,6 @@ body { font-family: 'Noto Sans KR','Roboto', sans-serif;}
 #main_06 .camera_check_item input[type="checkbox"]:checked + label { color:#dc000c; border-color:#dc000c; }
 #main_06 .btn_wrap { display:flex; justify-content: center;  }
 #main_06 .btn {  width:180px; height:60px; line-height: 60px; border-radius: 30px; font-size:18px; background:#dc000c; color:#fff; text-align: center; }
-
-
-
-
-
-
 
 /* 07.마이캐논 */
 #main_07 .container { width:1000px; margin:0 auto; }
