@@ -1,16 +1,53 @@
 'use strict';
 
+/* common */
+
+// 헤더 돋보기아이콘
+document.querySelector('.search_btn').addEventListener('click', function(){
+  document.querySelector('.header_dimmed').classList.add('active');
+});
+
+document.querySelector('.header_close_btn').addEventListener('click', function(){
+  document.querySelector('.header_dimmed').classList.remove('active');
+});
+
+// 헤더 모달창
+document.querySelector('.modal_btn').addEventListener('click', function(){
+  document.querySelector('.modal_mask_cover').classList.add('active');
+  document.querySelector('.modal_area_wrap').classList.add('active');
+});
+
+document.querySelector('.modal_btn_close').addEventListener('click', function(){
+  document.querySelector('.modal_mask_cover').classList.remove('active');
+  document.querySelector('.modal_area_wrap').classList.remove('active');
+});
+
 /* 01.메인페이지 */
+
+
 
 /* 02.로그인 */
 
+
+
 /* 03.통합회원전환 */
+
+
 
 /* 04.통합회원가입페이지 */
 
+
+
 /* 05.통합회원가입(개인) */
 
+
+
 /* 06.통합회원가입(사업자) */
+
+
+
+
+
 
 /* 07.마이캐논 */
 function addContents(){
@@ -29,6 +66,10 @@ function removeContents(){
 
 
 /* 09.1:1문의 */
+
+
+
+
 
 
 

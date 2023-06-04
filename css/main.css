@@ -54,6 +54,13 @@ body { font-family: 'Noto Sans KR','Roboto', sans-serif;}
 #main_01 .side_bar_item a { font-size:14px; text-align: center; margin:3px 0 0; display:block; }
 
 
+
+
+
+
+
+
+
 /* 02.로그인 */
 #main_02 .container{ width:480px; margin:0 auto; }
 #main_02 .main_title_txt { font-size:28px; margin-bottom:25px; text-align: center; }
@@ -66,13 +73,11 @@ body { font-family: 'Noto Sans KR','Roboto', sans-serif;}
 #main_02 .check_field_wrap { display: flex; }
 #main_02 .check_item input { display:none; }
 #main_02 .check_item:first-child { margin-right:5px; }
-
 #main_02 .check_item input[type="checkbox"] + label { font-size:14px; position: relative; padding-left:25px; }
 #main_02 .check_item input[type="checkbox"] + label:before { position:absolute; content:''; left:0; top:50%; transform: transLateY(-50%); width:20px; height:20px; border-radius:50%; box-sizing: border-box; border:1px solid #e6e6e6; }
 #main_02 .check_item input[type="checkbox"] + label:after { position:absolute; content:''; left:0; top:50%; transform: transLateY(-50%); width:20px; height:20px; border-radius:50%; }
 #main_02 .check_item input[type="checkbox"]:checked + label:before { border:1px solid #dc000c; background:#dc000c; }
 #main_02 .check_item input[type="checkbox"]:checked + label:after { background:url(../images/02_login/ico_check.svg#def) center center no-repeat; background-size:12px; }
-
 #main_02 .menu_wrap { display:flex; }
 #main_02 .menu_item { position:relative; padding-right: 10px; font-size: 14px; }
 #main_02 .menu_item:last-child { padding-right: 0; }

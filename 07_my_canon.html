@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>7.MY CANON</title>
+    <title>07_my_canon</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/main.css">
@@ -13,6 +13,13 @@
   <body>
     <!-- 헤더 -->
     <header id="header">
+      <div class="header_dimmed">
+        <div class="header_search_area">
+          <input type="text" placeholder="검색어를 입력해주세요">
+          <a href="#" class="modal_btn">모달버튼</a>
+          <button type="button" class="header_close_btn">닫기</button>
+        </div>
+      </div>
       <div class="container">
         <h1 class="logo">
           <a href="">로고</a>
@@ -46,6 +53,14 @@
         </nav>
       </div>
     </header>
+    <!-- 모달창 -->
+    <div class="modal_mask_cover"></div>
+    <div class="modal_area_wrap">
+      <div class="modal_area">
+        모달창입니다!
+        <button type="button" class="modal_btn_close">닫기</button>
+      </div>
+    </div>
     <!-- 메인 -->
     <main class="main" id="main_07">
       <div class="container">
