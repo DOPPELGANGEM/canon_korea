@@ -71,19 +71,18 @@
               <a href="" class="anchor_menu">1. 약관동의 (필수)</a>
               <ul class="check_field_wrap">
                 <li class="check_item">
-                  <input type="checkbox" name="rember_check" id="acc_remind_01" class="check_alone">
+                  <input type="checkbox" name="rember_check" id="acc_remind_01" class="check_alone" onclick="doOpenCheck(this)">
                   <label for="acc_remind_01">개인정보의 수집/이용 동의 (필수)</label>
                 </li>
                 <li class="check_item">
-                  <input type="checkbox" name="rember_check" id="acc_remind_02" class="check_alone">
+                  <input type="checkbox" name="rember_check" id="acc_remind_02" class="check_alone" onclick="doOpenCheck(this)">
                   <label for="acc_remind_02">개인정보의 수집/이용 동의 (선택)</label>
                 </li>
                 <li class="check_item">
-                  <input type="checkbox" name="rember_check" id="acc_remind_03" class="check_alone">
+                  <input type="checkbox" name="rember_check" id="acc_remind_03" class="check_alone" onclick="doOpenCheck(this)">
                   <label for="acc_remind_03">마케팅 활용 동의 (선택)</label>
                 </li>
               </ul>
-              <div id="result_box_01" class="result_box"></div>
             </li>
             <li class="menu_item">
               <a href="" class="anchor_menu">2. 본인인증 (필수)</a>
@@ -100,7 +99,7 @@
                   <p class="phone_input_step"><input type="phone" class="phone_input"></p>
                   <button type="button" class="cert_btn" style="background:#000; color:#fff;">본인인증</button>
                 </li>
-                <div id="result_box_02" class="result_box"></div>
+                <div class="result_box"></div>
               </ul>
             </li>
             <li class="menu_item">
@@ -159,7 +158,6 @@
                     </li>
                   </ul>
                 </li>
-                <div id="result_box_03" class="result_box"></div>
               </ul>
             </li>
             <li class="menu_item">

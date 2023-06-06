@@ -42,7 +42,6 @@ body { font-family: 'Noto Sans KR','Roboto', sans-serif;}
 #main_01 .plays_btn { position:absolute;  }
 #main_01 .play_btn { right:300px; }
 #main_01 .stop_btn {right: 280px; }
-#main_01 .plays_btn.on { display:none; }
 #main_01 .aside_bar_wrap { position: fixed; bottom:200px; right:30px; background:#fff; width:94px; padding: 20px 10px; border-radius: 15px; }
 #main_01 .side_bar_item { background-size:40px; background-repeat: no-repeat; background-position: top center; margin: 0 0 10px; padding:40px 0 0 }
 #main_01 .side_bar_item_01 { background-image:url("../images/01_main/quickmenu_ico_01.svg");}
@@ -52,14 +51,6 @@ body { font-family: 'Noto Sans KR','Roboto', sans-serif;}
 #main_01 .side_bar_item_05 { background-image:url("../images/01_main/quickmenu_ico_05.svg");}
 #main_01 .side_bar_item_06 { background-image:url("../images/01_main/quickmenu_ico_06.svg");}
 #main_01 .side_bar_item a { font-size:14px; text-align: center; margin:3px 0 0; display:block; }
-
-
-
-
-
-
-
-
 
 /* 02.로그인 */
 #main_02 .container{ width:480px; margin:0 auto; }
@@ -87,7 +78,6 @@ body { font-family: 'Noto Sans KR','Roboto', sans-serif;}
 #main_02 .add_txt { font-size:12px; color:#666; }
 
 
-
 /* 03.통합회원전환 */
 #main_03 .check_field_wrap { display: flex; justify-content: center; }
 #main_03 .check_item:not(:last-child) { margin-right:10px; }
@@ -100,7 +90,6 @@ body { font-family: 'Noto Sans KR','Roboto', sans-serif;}
 #main_03 .con_mem_txt_area { text-align: center; margin: 30px 0; }
 #main_03 .con_mem_txt_area h3 { font-size: 28px; margin:0 0 10px; }
 #main_03 .con_mem_txt_area p { font-size:18px; }
-
 #main_03 .mem_division_area .tit_desc { text-align: center; margin: 0 0 40px; }
 #main_03 .mem_division_area .box_wrap { display:flex; justify-content: center; }
 #main_03 h4 { text-align: center; font-size:24px; font-weight:500;  }
@@ -191,6 +180,9 @@ body { font-family: 'Noto Sans KR','Roboto', sans-serif;}
 
 
 .result_box { width:100%; height:200px; border:1px solid #e6e6e6; background:#f3f3f3; position: relative; top:0; }
+
+
+
 
 
 /* 06.통합회원가입(사업자) */
