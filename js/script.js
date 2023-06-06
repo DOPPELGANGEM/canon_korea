@@ -39,7 +39,6 @@ document.querySelector('#main_05 .cert_btn').addEventListener('click', function(
   document.querySelector('.result_box').innerHTML += '이름 : ' + userName + '<br>';
   document.querySelector('.result_box').innerHTML += '휴대폰 : ' + userPhone + '<br>';
   
-
   if(userName === '') {
     alert('이름을 입력하세요.');
   }
