@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>02_login</title>
+    <link rel="stylesheet" href="resources/css/reset.css">
+    <link rel="stylesheet" href="resources/css/layout.css">
+    <link rel="stylesheet" href="resources/css/main.css">
+    <script src="resources/js/jquery-3.4.1.min.js"></script>
+  </head>
+  <body>
+    <!-- 헤더 -->
+    <header id="header">
+      <div class="header_dimmed">
+        <div class="header_search_area">
+          <input type="text" placeholder="검색어를 입력해주세요">
+          <a href="#" class="modal_btn">모달버튼</a>
+          <button type="button" class="header_close_btn">닫기</button>
+        </div>
+      </div>
+      <div class="container">
+        <h1 class="logo">
+          <a href="">로고</a>
+        </h1> 
+        <div class="header_util_wrap">
+          <div class="search_btn_wrap">
+            <button type="button" class="search_btn">돋보기아이콘<img src="resources/images/01_main/ico_search_header.svg" alt=""></button>
+          </div>
+          <ul class="header_util_item_wrap">
+            <li class="header_util_item"><a href="#">로그인</a></li>
+            <li class="header_util_item"><a href="#">회원가입</a></li>
+          </ul>
+        </div>
+        <nav class="nav_center">
+          <ul class="nav_item nav_left_area">
+            <li class="nav_menu_txt"><a href="#">컨슈머</a></li>
+            <li class="nav_menu_txt"><a href="#">비즈니스</a></li>
+            <li class="nav_menu_txt"><a href="#">회사소개</a></li>
+            <li class="nav_menu_txt"><a href="#">이벤트</a></li>
+          </ul>
+          <ul class="nav_item nav_right_area">
+            <li class="nav_menu_txt"><a href="#">C Logue</a></li>
+            <li class="nav_menu_txt"><a href="#">고객지원</a></li>
+            <li class="nav_menu_txt"><a href="#">e스토어</a></li>
+            <li class="nav_menu_txt"><a href="#">아카데미</a></li>
+          </ul>
+          <ul class="nav_item nav_button_area">
+            <li class="nav_btn_item"><button>다운로드센터</button></li>
+            <li class="nav_btn_item"><button>정품등록</button></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- 모달창 -->
+    <div class="modal_mask_cover"></div>
+    <div class="modal_area_wrap">
+      <div class="modal_area">
+        <div class="modal_txt_area">
+          <h2 class="modal_main_txt">알림</h2>
+          <p class="modal_sub_txt">모달창입니다.</p>
+        </div>
+        <button type="button" class="modal_btn_close">닫기</button>
+      </div>
+    </div>
+    <!-- 메인 -->
+    <main class="main" id="main_02" >
+      <div class="container">
+        <h2 class="main_title_txt">로그인</h2>
+        <div class="box_wrap">
+          <p class="bold_txt"><strong>통합회원으로 전환하시고 <br>더욱 새로워진 캐논코리아를 만나보세요!</strong>
+          </p>
+          <p class="regular_txt">통합회원전환 이후에도 모든 서비스를 동일하게 이용하실 수 있습니다.</p>
+          <div class="btn_wrap">
+            <a href="" class="integrated_btn">통합회원전환 ></a>
+          </div>
+        </div>
+        <div class="input_wrap">
+          <div class="input_field_area">
+            <input type="text" placeholder="아이디" name="canon_id" class="canon_input_id">
+            <input type="password" placeholder="비밀번호" name="canon_pw" class="canon_input_pw">
+          </div>
+          <div class="remember_acc_wrap">
+            <ul class="check_field_wrap">
+              <li class="check_item">
+                <input type="checkbox" name="rember_check" id="acc_remind_01" class="check_alone">
+                <label for="acc_remind_01">아이디 기억</label>
+              </li>
+              <li class="check_item">
+                <input type="checkbox" name="rember_check" id="acc_remind_02" class="check_alone">
+                <label for="acc_remind_02">로그인 유지</label>
+              </li>
+            </ul>
+            <ul class="menu_wrap">
+              <li class="menu_item"><a href="">아이디 찾기</a></li>
+              <li class="menu_item"><a href="">비밀번호 찾기</a></li>
+              <li class="menu_item"><a href="">회원가입</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="big_btn_wrap">
+          <a href="" class="login_btn">로그인</a>
+        </div>
+        <!-- <ul class="sns_wrap">
+          <li><a href=""><p>페이스북 로그인</p></a></li>
+          <li><a href=""><p>네이버 로그인</p></a></li>
+          <li><a href=""><p>카카오 로그인</p></a></li>
+        </ul> -->
+        <p class="add_txt">개인정보수정 페이지에서 SNS 로그인 연동 설정을 하시면 재방문 시 간편하게 로그인 가능합니다.</p>
+      </div>
+    </main>
+    <!-- 푸터 -->
+    <footer id="footer">
+      <div class="container">
+        <ul class="footer_menu_list_wrap">
+          <li class="footer_menu_list"><a href="">컨슈머 제품</a></li>
+          <li class="footer_menu_list"><a href="">비즈니스 제품</a></li>
+          <li class="footer_menu_list"><a href="">라운지</a></li>
+          <li class="footer_menu_list"><a href="">제품 구입/지원</a></li>
+          <li class="footer_menu_list"><a href="">회사소개</a></li>
+        </ul>
+      </div>
+    </footer>
+    <script src="resources/js/script.js"></script>
+  </body>
+</html>

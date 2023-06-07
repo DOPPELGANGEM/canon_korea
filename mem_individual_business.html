@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>06_int_mem_individual_business</title>
+    <link rel="stylesheet" href="resources/css/reset.css">
+    <link rel="stylesheet" href="resources/css/layout.css">
+    <link rel="stylesheet" href="resources/css/main.css">
+    <script src="resources/js/jquery-3.4.1.min.js"></script>
+  </head>
+  <body>
+    <!-- 헤더 -->
+    <header id="header">
+      <div class="header_dimmed">
+        <div class="header_search_area">
+          <input type="text" placeholder="검색어를 입력해주세요">
+          <a href="#" class="modal_btn">모달버튼</a>
+          <button type="button" class="header_close_btn">닫기</button>
+        </div>
+      </div>
+      <div class="container">
+        <h1 class="logo">
+          <a href="">로고</a>
+        </h1> 
+        <div class="header_util_wrap">
+          <div class="search_btn_wrap">
+            <button type="button" class="search_btn">돋보기아이콘<img src="resources/images/01_main/ico_search_header.svg" alt=""></button>
+          </div>
+          <ul class="header_util_item_wrap">
+            <li class="header_util_item"><a href="#">로그인</a></li>
+            <li class="header_util_item"><a href="#">회원가입</a></li>
+          </ul>
+        </div>
+        <nav class="nav_center">
+          <ul class="nav_item nav_left_area">
+            <li class="nav_menu_txt"><a href="#">컨슈머</a></li>
+            <li class="nav_menu_txt"><a href="#">비즈니스</a></li>
+            <li class="nav_menu_txt"><a href="#">회사소개</a></li>
+            <li class="nav_menu_txt"><a href="#">이벤트</a></li>
+          </ul>
+          <ul class="nav_item nav_right_area">
+            <li class="nav_menu_txt"><a href="#">C Logue</a></li>
+            <li class="nav_menu_txt"><a href="#">고객지원</a></li>
+            <li class="nav_menu_txt"><a href="#">e스토어</a></li>
+            <li class="nav_menu_txt"><a href="#">아카데미</a></li>
+          </ul>
+          <ul class="nav_item nav_button_area">
+            <li class="nav_btn_item"><button>다운로드센터</button></li>
+            <li class="nav_btn_item"><button>정품등록</button></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- 모달창 -->
+    <div class="modal_mask_cover"></div>
+    <div class="modal_area_wrap">
+      <div class="modal_area">
+        <div class="modal_txt_area">
+          <h2 class="modal_main_txt">알림</h2>
+          <p class="modal_sub_txt">모달창입니다.</p>
+        </div>
+        <button type="button" class="modal_btn_close">닫기</button>
+      </div>
+    </div>
+    <!-- 메인 -->
+    <main class="main" id="main_06">
+      <div class="container">
+        <div class="container">
+          <h2 class="title_txt">회원가입 (사업자)</h2>
+          <div class="menu_all_wrap">
+            <ul class="menu_item_wrap">
+              <li class="menu_item">
+                <a href="" class="anchor_menu">1. 약관동의 (필수)</a>
+                <ul class="check_field_wrap">
+                  <li class="check_item">
+                    <input type="checkbox" name="rember_check" id="acc_remind_01" class="check_alone">
+                    <label for="acc_remind_01">개인정보의 수집/이용 동의 (필수)</label>
+                  </li>
+                  <li class="check_item">
+                    <input type="checkbox" name="rember_check" id="acc_remind_02" class="check_alone">
+                    <label for="acc_remind_02">마케팅 활용 동의 (선택)</label>
+                  </li>
+                  <li class="check_item">
+                    <input type="checkbox" name="rember_check" id="acc_remind_03" class="check_alone">
+                    <label for="acc_remind_03">마케팅 활용 동의 (선택)</label>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu_item">
+                <a href="" class="anchor_menu">2. 사업자인증 (필수)</a>
+                <ul class="user_info_wrap">
+                  <li class="info_line info_name_line">
+                    <h4>이름</h4>
+                    <input type="name" class="name_input">
+                    <p class="desc_txt">본인 인증 완료 시 자동 입력됩니다.</p>
+                  </li>
+                  <li class="info_line info_name_line">
+                    <h4>휴대폰</h4>
+                    <p class="phone_input_step"><input type="phone" class="phone_input"></p>
+                    <p class="phone_input_step"><input type="phone" class="phone_input"></p>
+                    <p class="phone_input_step"><input type="phone" class="phone_input"></p>
+                    <button type="button" class="cert_btn" style="background:#000; color:#fff;">본인인증</button>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu_item">
+                <a href="" class="anchor_menu">3. 회원정보 (필수)</a>
+                <ul class="user_email_wrap">
+                  <li class="user_info_area">
+                    <p class="tit_txt">이메일</p>
+                    <div class="form_wrap">
+                      <input type="email" placeholder="이메일" class="email_1">
+                      <div class="email_sel_area">
+                        <span class="special_txt">@</span>
+                        <input type="email" placeholder="이메일" class="email_2">
+                        <select name="email_addr" class="email_sel">
+                          <option value="daum.net">daum.net</option>
+                          <option value="empal.com">empal.com</option>
+                          <option value="gmail.com">gmail.com</option>
+                          <option value="hanmail.net">hanmail.net</option>
+                          <option value="msn.com">msn.com</option>
+                          <option value="naver.com">naver.com</option>
+                          <option value="nate.com">nate.com</option>
+                        </select>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="user_info_area">
+                    <p class="tit_txt">이메일 수신여부</p>
+                    <ul class="box_round_wrap">
+                      <li class="box_round_item">
+                        <input type="radio" name="email_check" id="email_check_01">
+                        <label for="email_check_01">수신</label>
+                      </li>
+                      <li class="box_round_item">
+                        <input type="radio" name="email_check" id="email_check_02">
+                        <label for="email_check_02">비수신</label>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="user_info_area">
+                    <p class="tit_txt">개인정보 보관 및 <br>활용 기간 </p>
+                    <ul class="box_round_wrap">
+                      <li class="box_round_item">
+                        <input type="radio" name="privacy_check" id="privacy_check_01">
+                        <label for="privacy_check_01">회원 탈퇴 시 까지</label>
+                      </li>
+                      <li class="box_round_item">
+                        <input type="radio" name="privacy_check" id="privacy_check_02">
+                        <label for="privacy_check_02">5년 </label>
+                      </li>
+                      <li class="box_round_item">
+                        <input type="radio" name="privacy_check" id="privacy_check_03">
+                        <label for="privacy_check_03">3년</label>
+                      </li>
+                      <li class="box_round_item">
+                        <input type="radio" name="privacy_check" id="privacy_check_04">
+                        <label for="privacy_check_04">1년</label>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu_item">
+                <a href="" class="anchor_menu arrow_menu">4. 부가정보 (선택)</a>
+                <div class="slide_toggle_wrap">
+                  <ul class="user_married_wrap">
+                    <li class="user_married_area">
+                      <p class="tit_txt">결혼 여부</p>
+                      <ul class="box_round_wrap">
+                        <li class="box_round_item">
+                          <input type="radio" name="marry_check" id="marry_check_01">
+                          <label for="marry_check_01">수신</label>
+                        </li>
+                        <li class="box_round_item">
+                          <input type="radio" name="marry_check" id="marry_check_02">
+                          <label for="marry_check_02">비수신</label>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <ul class="camera_check_field_wrap">
+                    <p class="tit_txt">카메라 보유현황</p>
+                    <li class="camera_check_item">
+                      <input type="checkbox" name="camera_check" id="camera_remind_01" class="check_alone">
+                      <label for="camera_remind_01">캐논</label>
+                    </li>
+                    <li class="camera_check_item">
+                      <input type="checkbox" name="camera_check" id="camera_remind_02" class="check_alone">
+                      <label for="camera_remind_02">소니</label>
+                    </li>
+                    <li class="camera_check_item">
+                      <input type="checkbox" name="camera_check" id="camera_remind_03" class="check_alone">
+                      <label for="camera_remind_03">니콘</label>
+                    </li>
+                    <li class="camera_check_item">
+                      <input type="checkbox" name="camera_check" id="camera_remind_04" class="check_alone">
+                      <label for="camera_remind_04">올림푸스</label>
+                    </li>
+                    <li class="camera_check_item">
+                      <input type="checkbox" name="camera_check" id="camera_remind_05" class="check_alone">
+                      <label for="camera_remind_05">후지필름</label>
+                    </li>
+                    <li class="camera_check_item">
+                      <input type="checkbox" name="camera_check" id="camera_remind_06" class="check_alone">
+                      <label for="camera_remind_06">코닥</label>
+                    </li>
+                    <li class="camera_check_item">
+                      <input type="checkbox" name="camera_check" id="camera_remind_07" class="check_alone">
+                      <label for="camera_remind_07">펜탁스</label>
+                    </li>
+                    <li class="camera_check_item">
+                      <input type="checkbox" name="camera_check" id="camera_remind_08" class="check_alone">
+                      <label for="camera_remind_08">라이카</label>
+                    </li>
+                    <li class="camera_check_item">
+                      <input type="checkbox" name="camera_check" id="camera_remind_09" class="check_alone">
+                      <label for="camera_remind_09">기타</label>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+            <div class="btn_wrap">
+              <a href="" class="btn">회원가입</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- 푸터 -->
+    <footer id="footer">
+      <div class="container">
+        <ul class="footer_menu_list_wrap">
+          <li class="footer_menu_list"><a href="">컨슈머 제품</a></li>
+          <li class="footer_menu_list"><a href="">비즈니스 제품</a></li>
+          <li class="footer_menu_list"><a href="">라운지</a></li>
+          <li class="footer_menu_list"><a href="">제품 구입/지원</a></li>
+          <li class="footer_menu_list"><a href="">회사소개</a></li>
+        </ul>
+      </div>
+    </footer>
+    <script src="resources/js/script.js"></script>
+  </body>
+</html>

@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-    <g data-name="그룹 8" transform="translate(7 4)">
-        <circle data-name="타원 12" cx="2" cy="2" r="2" transform="translate(7.25 12)" style="fill:none;stroke:#111;stroke-linejoin:round;stroke-width:1.5px"/>
-        <circle data-name="타원 14" cx="2" cy="2" r="2" transform="translate(7.25 -1)" style="fill:none;stroke:#111;stroke-linejoin:round;stroke-width:1.5px"/>
-        <circle data-name="타원 15" cx="2" cy="2" r="2" transform="translate(-2.25 5.5)" style="fill:none;stroke:#111;stroke-linejoin:round;stroke-width:1.5px"/>
-        <path data-name="선 2" transform="translate(1.5 8.5)" style="fill:none;stroke:#111;stroke-linejoin:round;stroke-width:1.5px" d="m0 0 6 4"/>
-        <path data-name="선 3" transform="translate(1.5 2.5)" style="fill:none;stroke:#111;stroke-linejoin:round;stroke-width:1.5px" d="M0 5.042 6 0"/>
-    </g>
-</svg>
